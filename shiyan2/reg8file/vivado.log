@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 17 16:39:42 2022
+# Process ID: 68212
+# Current directory: C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent53220 C:\Users\86157\Desktop\Study\digital logic\shiyan2\reg8file\reg8file.xpr
+# Log file: C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file/vivado.log
+# Journal file: C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file/reg8file.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 975.984 ; gain = 290.316
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 17 16:41:14 2022...

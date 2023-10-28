@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/led_display_ctrl2/counter.v,1669257843,verilog,,D:/led_display_ctrl2/key.v,,counter,,,,,,,,
+D:/led_display_ctrl2/key.v,1668930434,verilog,,D:/led_display_ctrl2/led_display_ctrl2.v,,key,,,,,,,,
+D:/led_display_ctrl2/led_display_ctrl2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/led_display_ctrl2/led_display_ctrl2.v,1669013996,verilog,,D:/led_display_ctrl2/timer.v,,led_display_ctrl,,,,,,,,
+D:/led_display_ctrl2/testbench.v,1668930164,verilog,,,,led_display_ctrl_sim,,,,,,,,
+D:/led_display_ctrl2/timer.v,1669257772,verilog,,D:/led_display_ctrl2/tub_show.v,,timer,,,,,,,,
+D:/led_display_ctrl2/tub_show.v,1668852906,verilog,,D:/led_display_ctrl2/testbench.v,,tub_show,,,,,,,,

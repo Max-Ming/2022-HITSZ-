@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/key.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/led_display_ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_display_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/tub_show.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tub_show
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_display_ctrl_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/led_display_ctrl2/led_display_ctrl2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

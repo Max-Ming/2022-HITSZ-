@@ -1,0 +1,237 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov  7 16:29:48 2022
+# Process ID: 23184
+# Current directory: C:/Users/86157/Desktop/Study/shuluo/dff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28724 C:\Users\86157\Desktop\Study\shuluo\dff\dff.xpr
+# Log file: C:/Users/86157/Desktop/Study/shuluo/dff/vivado.log
+# Journal file: C:/Users/86157/Desktop/Study/shuluo/dff\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86157/Desktop/Study/shuluo/dff/dff.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Êý×ÖÂß¼­/dff' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 929.645 ; gain = 259.691
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dff_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dff_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xelab -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.dff_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dff_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dff_sim_behav -key {Behavioral:sim_1:Functional:dff_sim} -tclbatch {dff_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source dff_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dff_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 991.879 ; gain = 58.461
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Mon Nov  7 16:30:47 2022] Launched synth_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Mon Nov  7 16:31:28 2022] Launched impl_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dff_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dff_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xelab -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.dff_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dff_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dff_sim_behav -key {Behavioral:sim_1:Functional:dff_sim} -tclbatch {dff_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source dff_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dff_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1032.367 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Mon Nov  7 16:39:23 2022] Launched synth_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Mon Nov  7 16:40:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Mon Nov  7 16:42:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Mon Nov  7 16:43:40 2022] Launched impl_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/impl_1/runme.log
+add_bp {C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v} 13
+remove_bps -file {C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v} -line 13
+add_bp {C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v} 13
+remove_bps -file {C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v} -line 13
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'dff_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj dff_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+"xelab -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b7ed4c9f104b48c088fd76e444cc2ec1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot dff_sim_behav xil_defaultlib.dff_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.dff_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dff_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86157/Desktop/Study/shuluo/dff/dff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "dff_sim_behav -key {Behavioral:sim_1:Functional:dff_sim} -tclbatch {dff_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source dff_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'dff_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1033.660 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Mon Nov  7 16:58:17 2022] Launched synth_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Mon Nov  7 16:58:59 2022] Launched impl_1...
+Run output will be captured here: C:/Users/86157/Desktop/Study/shuluo/dff/dff.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  7 17:05:20 2022...

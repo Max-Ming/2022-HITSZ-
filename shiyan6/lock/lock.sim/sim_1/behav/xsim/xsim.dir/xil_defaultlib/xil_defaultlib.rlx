@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/big_sequence.v,1671008858,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/counter.v,,big_sequence,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/counter.v,1671544417,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/keyboard.v,,counter,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/keyboard.v,1671544356,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/set_num.v,,keyboard,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/lock.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/set_num.v,1670908357,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/small_sequence.v,,set_num,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/small_sequence.v,1670909600,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/timer.v,,small_sequence,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/testbench.v,1671602344,verilog,,,,top_sim,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/timer.v,1670836529,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/top.v,,timer,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/top.v,1671008865,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/tub_show.v,,top,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/tub_show.v,1670907098,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/testbench.v,,tub_show,,,,,,,,

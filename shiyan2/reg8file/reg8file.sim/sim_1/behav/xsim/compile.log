@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file/dff8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file/reg8file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg8file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/digital logic/shiyan2/reg8file/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg8file_sim

@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Dec 21 10:44:35 2022
+# Process ID: 32352
+# Current directory: C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38096 C:\Users\86157\Desktop\Study\digital logic\shiyan6\lock\lock.xpr
+# Log file: C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/vivado.log
+# Journal file: C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86157/Desktop/Study/digital logic/shiyan6/lock/lock.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source top_sim.tcl
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_set_num/num7}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_set_num/num6}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_set_num/num5}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_keyboard/keyboard_num}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_big_sequence/current_state}} 
+relaunch_sim
+run 300 ns
+run 300 ns
+run 300 ns
+relaunch_sim
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_small_sequence/num_7}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_small_sequence/num_6}} 
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_small_sequence/num_5}} 
+relaunch_sim
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 3000 ns
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 9000 ns
+run 300 ns
+run 300 ns
+run 300 ns
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 11 us
+relaunch_sim
+run 14 us
+relaunch_sim
+run 14 us
+run 14 us
+current_wave_config {Untitled 1}
+add_wave {{/top_sim/u_top/u_small_sequence/current_state}} 
+relaunch_sim
+run 14 us
+close_sim

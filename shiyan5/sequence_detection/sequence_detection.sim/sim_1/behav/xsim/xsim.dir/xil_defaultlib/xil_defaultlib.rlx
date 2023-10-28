@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.v,1669872586,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/timer.v,,sequence_detection,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/testbench.v,1669871885,verilog,,,,sequence_detection_sim,,,,,,,,
+C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/timer.v,1669872123,verilog,,C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/testbench.v,,timer,,,,,,,,

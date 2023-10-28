@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Dec  5 13:52:12 2022
+# Process ID: 10560
+# Current directory: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30040 C:\Users\86157\Desktop\Study\digital logic\shiyan5\sequence_detection\sequence_detection.xpr
+# Log file: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/vivado.log
+# Journal file: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag

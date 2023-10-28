@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Dec  1 13:31:28 2022
+# Process ID: 9284
+# Current directory: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.runs/impl_1
+# Command line: vivado.exe -log sequence_detection.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sequence_detection.tcl -notrace
+# Log file: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.runs/impl_1/sequence_detection.vdi
+# Journal file: C:/Users/86157/Desktop/Study/digital logic/shiyan5/sequence_detection/sequence_detection.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sequence_detection.tcl -notrace

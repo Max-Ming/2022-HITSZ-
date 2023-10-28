@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/数字逻辑设计/digital logic/shiyan1/multiplexer/multiplexers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/数字逻辑设计/digital logic/shiyan1/multiplexer/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/数字逻辑设计/digital logic/shiyan1/multiplexer/multiplexer.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

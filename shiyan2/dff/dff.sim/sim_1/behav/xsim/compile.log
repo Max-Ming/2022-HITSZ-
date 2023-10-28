@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86157/Desktop/Study/shuluo/dff/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff_sim

@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../big_sequence.v" \
+"../../../../counter.v" \
+"../../../../keyboard.v" \
+"../../../../set_num.v" \
+"../../../../small_sequence.v" \
+"../../../../timer.v" \
+"../../../../top.v" \
+"../../../../tub_show.v" \
+"../../../../testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov 28 13:56:09 2022
+# Process ID: 2656
+# Current directory: C:/Users/86157/Desktop/Study/digital logic/shiyan1/decorder_38
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2500 C:\Users\86157\Desktop\Study\digital logic\shiyan1\decorder_38\decorder_38.xpr
+# Log file: C:/Users/86157/Desktop/Study/digital logic/shiyan1/decorder_38/vivado.log
+# Journal file: C:/Users/86157/Desktop/Study/digital logic/shiyan1/decorder_38\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86157/Desktop/Study/digital logic/shiyan1/decorder_38/decorder_38.xpr}
+
